@@ -11,6 +11,8 @@ const App = () => {
     { start: 5, end: 10, text: 'Subtitle 2' },
     // Add more subtitles as needed
   ];
+
+  // Where is the audio track located? (i.e. /audio/english.mp3)
   const audioTracks = [
     { language: 'English', src: '' },
     { language: 'Spanish', src: '' },
